@@ -244,11 +244,6 @@ Don't forget the CTRL + ` to toggle the terminal window. You can use the command
 
 VS Code will show the most commonly used method with "star" symbol in the intelesecen window
 
-# Resources:
-- dot.net => then "Explore learning portal"
-- https://learn.microsoft.com/en-us/dotnet/csharp/
-- https://code.visualstudio.com/docs/csharp/get-started
-
 # Copilot AI Assistance:
 We can enable/disable Copilot Inline Suggestions for code and comments:
    - Open VS Code Command Palette => CTRL + SHIFT + P
@@ -263,3 +258,5 @@ We can enable/disable Copilot Inline Suggestions for code and comments:
     - https://learn.microsoft.com/en-us/dotnet/
 - C# language documentation:
    - https://learn.microsoft.com/en-us/dotnet/csharp/
+- Getting Started with C# in VS Code:
+   - https://code.visualstudio.com/docs/csharp/get-started
