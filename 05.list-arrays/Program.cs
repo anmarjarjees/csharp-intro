@@ -1,16 +1,23 @@
 ﻿/*
-To Review:
+To review:
 **********
-The dotnet CLI command for creating a new console app project with the full C# code structure, 
-including the Program class and Main method, is:
-> dotnet new console --use-program-main
-The command generates a new console application with the necessary files and structure to run a C# program. 
-The --use-program-main option indicates that the generated code will include a Program class with a Main method, 
-which serves as the entry point of the application.
+Running the dotnet CLI command:
+    
+    > dotnet new console --use-program-main
+
+This command:
+- Creates a new Console Application project
+- Generates the Program class
+- Adds the Main method (application entry point)
+
+By default:
+- The namespace is based on the project name.
+- C# identifiers (including namespaces) cannot start with a digit.
+- If the project name starts with a number, the SDK automatically
+  modifies it (for example, by adding an underscore "_").
 
 For more details refer to the previous project C# File. 
 */
-using System.Text;
 
 namespace _05.list_arrays;
 
