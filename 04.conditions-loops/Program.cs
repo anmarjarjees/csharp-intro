@@ -457,10 +457,18 @@ NOTES TO REMEMBER:
 - In C# like other programming languages, we use curly braces {} to define a block of code.
 A block of code is a group of statements that are executed together.
 For example, in an if statement, the block of code is the part that gets executed if the condition is true. 
+
 - In a loop, the block of code is the part that gets executed for each iteration of the loop. 
-In C#, we can have nested blocks of code, which means we can have blocks of code inside other blocks of code.   
-- Variables defined inside a block of code are called "local variables" and they can only be accessed within that block of code.
-- Local variables have "local scope", which means they can only be accessed within the block of code where they are defined.
-- Variables defined outside of any block of code are called "global variables" and they can be accessed from anywhere in the program.
-- Global variables have "global scope", which means they can be accessed from anywhere in the program.
+In C#, we can have nested blocks of code, which means we can have blocks of code inside other blocks of code.  
+
+- Variables defined inside a method or block are called "local variables".
+  They have local scope and can only be accessed inside that block.
+
+- Variables defined inside a class but outside methods are called "fields".
+  Fields belong to the class and can be accessed depending on their access modifier.
+
+NOTE: 
+C# does NOT support true global variables outside of a type.
+All variables must belong to a class, struct, or record.
+
 */
